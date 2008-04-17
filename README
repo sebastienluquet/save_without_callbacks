@@ -1,7 +1,9 @@
 SaveWithoutCallbacks
 ====================
 
-Simple hat for the AR callback method
+NOTE: This really does what it sounds like! To be used SPARINGLY! Make sure IT IS EXACTLY WHAT YOU NEED BEFORE IMPLEMENTING!
+
+Simple change for the AR callback method
 
 object.skip_callbacks = true
 
@@ -9,4 +11,4 @@ will skip all callbacks: before_save, after_save, etc
 
 Problems? Email me at richard@tangofoxtrot.com
 
-http://tangofoxtrot.com/svn/save_without_callbacks
+http://tangofoxtrot.com/svn/plugins/save_without_callbacks
