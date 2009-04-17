@@ -13,6 +13,7 @@ ActiveRecord::Base.establish_connection(:adapter => "sqlite3", :dbfile => ":memo
 
 class Article < ActiveRecord::Base
   validates_presence_of :subject
+  attr_accessible :subject
   
   before_save :tweak_body
   
