@@ -4,7 +4,6 @@ module Tango
     def self.included(base) #:nodoc:
       base.class_eval do
         attr_accessor :skip_callbacks
-        attr_protected :skip_callbacks
       end
     
       base.alias_method_chain :callback, :callbacks_check
